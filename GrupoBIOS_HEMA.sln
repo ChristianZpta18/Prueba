@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrupoBIOS_HEMA.API", "GrupoBIOS_HEMA.API\GrupoBIOS_HEMA.API.csproj", "{0DAD1330-2FC9-497B-8B51-B30F9052523E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrupoBIOS_HEMA.BM", "GrupoBIOS_HEMA.BM\GrupoBIOS_HEMA.BM.csproj", "{30E7CD51-19CD-4378-BBB4-003A65C0B935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrupoBIOS_HEMA.DM", "GrupoBIOS_HEMA.DM\GrupoBIOS_HEMA.DM.csproj", "{7686C2CB-440F-424E-ADF3-E4DCCFB6CD6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrupoBIOS_HEMA.DT", "GrupoBIOS_HEMA.DT\GrupoBIOS_HEMA.DT.csproj", "{B7169716-2791-434A-AE5B-D6830765921E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrupoBIOS_HEMA.Soportes", "GrupoBIOS_HEMA.Soportes\GrupoBIOS_HEMA.Soportes.csproj", "{9626BE43-3D7E-4E61-B513-E069D2212395}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccesoDatos", "AccesoDatos", "{476C22A0-4312-4DE4-9FC1-B550ABF4186E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{40D7B357-C834-4364-B380-04FEB2457422}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{327BF4E4-3515-4685-9E25-1D939781F158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{E174133F-EB1D-4875-87B0-A285727BA2EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DAD1330-2FC9-497B-8B51-B30F9052523E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAD1330-2FC9-497B-8B51-B30F9052523E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAD1330-2FC9-497B-8B51-B30F9052523E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAD1330-2FC9-497B-8B51-B30F9052523E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E7CD51-19CD-4378-BBB4-003A65C0B935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E7CD51-19CD-4378-BBB4-003A65C0B935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E7CD51-19CD-4378-BBB4-003A65C0B935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E7CD51-19CD-4378-BBB4-003A65C0B935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7686C2CB-440F-424E-ADF3-E4DCCFB6CD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7686C2CB-440F-424E-ADF3-E4DCCFB6CD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7686C2CB-440F-424E-ADF3-E4DCCFB6CD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7686C2CB-440F-424E-ADF3-E4DCCFB6CD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7169716-2791-434A-AE5B-D6830765921E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7169716-2791-434A-AE5B-D6830765921E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7169716-2791-434A-AE5B-D6830765921E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7169716-2791-434A-AE5B-D6830765921E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9626BE43-3D7E-4E61-B513-E069D2212395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9626BE43-3D7E-4E61-B513-E069D2212395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9626BE43-3D7E-4E61-B513-E069D2212395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9626BE43-3D7E-4E61-B513-E069D2212395}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DAD1330-2FC9-497B-8B51-B30F9052523E} = {327BF4E4-3515-4685-9E25-1D939781F158}
+		{30E7CD51-19CD-4378-BBB4-003A65C0B935} = {40D7B357-C834-4364-B380-04FEB2457422}
+		{7686C2CB-440F-424E-ADF3-E4DCCFB6CD6D} = {476C22A0-4312-4DE4-9FC1-B550ABF4186E}
+		{B7169716-2791-434A-AE5B-D6830765921E} = {E174133F-EB1D-4875-87B0-A285727BA2EC}
+		{9626BE43-3D7E-4E61-B513-E069D2212395} = {E174133F-EB1D-4875-87B0-A285727BA2EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F96AB95B-8410-4423-A7C3-BF0D1504437B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://algartechcolombia.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GrupoBIOS_HEMA.API\\GrupoBIOS_HEMA.API.csproj
+		SccProjectTopLevelParentUniqueName1 = GrupoBIOS_HEMA.sln
+		SccProjectName1 = GrupoBIOS_HEMA.API
+		SccLocalPath1 = GrupoBIOS_HEMA.API
+		SccProjectUniqueName2 = GrupoBIOS_HEMA.BM\\GrupoBIOS_HEMA.BM.csproj
+		SccProjectTopLevelParentUniqueName2 = GrupoBIOS_HEMA.sln
+		SccProjectName2 = GrupoBIOS_HEMA.BM
+		SccLocalPath2 = GrupoBIOS_HEMA.BM
+		SccProjectUniqueName3 = GrupoBIOS_HEMA.DM\\GrupoBIOS_HEMA.DM.csproj
+		SccProjectTopLevelParentUniqueName3 = GrupoBIOS_HEMA.sln
+		SccProjectName3 = GrupoBIOS_HEMA.DM
+		SccLocalPath3 = GrupoBIOS_HEMA.DM
+		SccProjectUniqueName4 = GrupoBIOS_HEMA.DT\\GrupoBIOS_HEMA.DT.csproj
+		SccProjectTopLevelParentUniqueName4 = GrupoBIOS_HEMA.sln
+		SccProjectName4 = GrupoBIOS_HEMA.DT
+		SccLocalPath4 = GrupoBIOS_HEMA.DT
+		SccProjectUniqueName5 = GrupoBIOS_HEMA.Soportes\\GrupoBIOS_HEMA.Soportes.csproj
+		SccProjectTopLevelParentUniqueName5 = GrupoBIOS_HEMA.sln
+		SccProjectName5 = GrupoBIOS_HEMA.Soportes
+		SccLocalPath5 = GrupoBIOS_HEMA.Soportes
+	EndGlobalSection
+EndGlobal
